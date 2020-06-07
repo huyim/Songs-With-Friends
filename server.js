@@ -82,8 +82,8 @@ app.get("/play/:id", function(req, res) {
   let url = "https://api.spotify.com/v1/me/player/play";
 
   // get the user's token
-  // console.log(tokens)
-  // console.log(req.user)
+   console.log(tokens)
+   console.log(req.user)
   
   
   // put some data into the body of the PUT request we will send to Spotify
