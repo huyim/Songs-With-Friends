@@ -1,25 +1,22 @@
 {
-  "name": "starter-react-app",
-  "version": "1.0.0",
+  "name": "app",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1"
+    "create-react-app": "^1.3.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-spotify-player": "^1.0.4"
+  },
+  "proxy": "https://spotify-web-playback-react.glitch.me",
+  "devDependencies": {
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "engines": {
-    "node": "11.x"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "license": "MIT"
 }
