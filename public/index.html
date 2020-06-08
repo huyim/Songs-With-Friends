@@ -1,59 +1,44 @@
-<!-- This is a static file -->
-<!-- served from your routes in server.js -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A cool thing made with Glitch">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/15a81fd9-76e5-4f19-881f-ba4f8fde3f89%2F1486051908-musicsocialnetworkbrandlogo_79096.ico?v=1591575410328"
+    />
+    <link
+      href="https://sp-bootstrap.global.ssl.fastly.net/8.0.0/sp-bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-    <title>ECS162 Songs</title>
-
-    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-
-    <!-- import the webpage's client-side javascript file -->
-    <script src="/script.js" defer></script>
+    <title>SWF</title>
+    <!--
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="https://button.glitch.me/button.js"></script>
+   -->
   </head>
   <body>
-    <h1>
-      Songs, soon to be Songs with Friends
-    </h1>
-    <p>
-      Users need a Spotify Premium account to use this app.  Sorry, that's how it is.  Fortunately Premium is free
-      for three months, then $4.99/mo for students thereafter. 
-    </p>
-    <p>
-      This app will only work if you, the user, have a playback device (phone, speaker, laptop browser window)
-      already logged into your Spotify Premium account. 
-      For instance, first go to Spotify, log in, and go to the home screen so that the Web player is running. 
-      Play a bit of something so Spotify identifies the player as your most recently used device. 
-      Then click the button below.  
-      Don't click the button before you have a Spotify player ready to go. 
-    </p>
-    <p>
-      To make this work nicer, your app should probably begin with an AJAX query to the server to get it
-      to check with Spotify to see if 
-      there is an available playback device 
-      (eg. <a href="https://developer.spotify.com/documentation/web-api/reference/player/get-information-about-the-users-current-playback/">
-      here</a> or <a href="https://developer.spotify.com/documentation/web-api/reference/player/get-a-users-available-devices/">
-      here</a>). 
-    </p>
-    
-    
-    <!-- login to Spotify by redirecting to this route on the Server -->
-    <a id="justConnect" href="/auth/spotify">Connect to your Spotify player</a>
-    
-    <p>
-      Right now the user plays tracks by pusing buttons, that redirect to routes on the Server. 
-      But ultimately, we'll want the Server to play the same song for all users, all at the same time. 
-    </p>
-    <ul>
-      <li><a href="/play/4iV5W9uYEdYUVa79Axb7Rh">play track 1</a></li>
-      <li><a href="/play/2SYh5DcREUDef2mMtVoUhP">play track 2</a></li>
-    </ul>
-    
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
   </body>
 </html>

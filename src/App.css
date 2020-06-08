@@ -1,0 +1,27 @@
+.App {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #000;
+  color: white
+}
+
+.App-header {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 70px;
+  color: white;
+}
+
+.App-footer {
+  padding-top: 47.8em;
+  font-size: 10px;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+.btn-green {
+  align-items: right;
+}
